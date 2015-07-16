@@ -1,7 +1,5 @@
-#Bluemix Zone Demo
-Sample application demonstrating how to send events to the cloud from a device and process them in an application.  The application demonstrates one approach to delegating access to sensor data in the IOT Foundation to users of a backend application utilising an IOT Foundation API key. 
-
-See the demo application running live: http://iot-demo.mybluemix.net/
+#Bluemix Solutions Demo
+Sample application demonstrating how to send events to the cloud from a device and process them in an application.  The application demonstrates one approach to delegating access to sensor data in the Internet of Things service to users of a backend application using an Internet of Things service API key. 
 
 You can also see the demo application running in the IBM Bluemix Internet of Things solutions page https://console.ng.bluemix.net/solutions/iot
 
@@ -18,14 +16,16 @@ The main application is a Python WSGI server which primarily exists to provide d
 
 
 ### The Simulated Device
-The second part of the application is a page designed to be run on a users phone that uses JavaScript to simulate device code running on the phone.  The device code presents the same username & PIN to the backend application for authentication, on a successful authentication the backend application will provide the device with the necessary credentials required to connect securely to the IOT Foundation.
+The second part of the application is a page designed to be run on a users phone that uses JavaScript to simulate device code running on the phone.  The device code presents the same username & PIN to the backend application for authentication, on a successful authentication the backend application will provide the device with the necessary credentials required to connect securely to the Internet of Things service.
 
 
 ---
 
 
 ##Bluemix Deployment
-The sample is specifically designed to be deployed into Bluemix.  The application requires a binding to both an instance of the IOTF & Cloudant services.
+The sample is specifically designed to be deployed into Bluemix.  The application requires a binding to both an instance of the Internet of Things service & Cloudant services.
+
+[![Deploy to Bluemix](https://bluemix.net/deploy/button.png)](https://bluemix.net/deploy?repository=)
 
 ###Get the sample source code
 ```
@@ -63,7 +63,7 @@ Open http://&lt;app_name&gt;.mybluemix.net/ in a browser
 
 
 ##Configuration
-The demo supports multiple themes.  The Demo running in Bluemix uses a highly customised theme specifically designed for the IOT Bluemix Zone, but there are a number of simpler themes included in the sample code that provide a cleaner starting point for building your own application based on this sample.
+The demo supports multiple themes.  The Demo running in Bluemix uses a highly customised theme specifically designed for the Bluemix Internet of Things solution page, but there are a number of simpler themes included in the sample code that provide a cleaner starting point for building your own application based on this sample.
 
 One way to do this is to use the cf **set-env** command:
 ```
