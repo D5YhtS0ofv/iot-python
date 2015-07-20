@@ -1,8 +1,8 @@
 declared-services:
-  iot-python-cloudantNoSQLDB:
+  iot-python-phone-demo-cloudantNoSQLDB:
     label: cloudantNoSQLDB
     plan: Shared
-  iot-python-iotf-service:
+  iot-python-phone-demo-iotf-service:
     label: iotf-service
     plan: iotf-service-free
   
