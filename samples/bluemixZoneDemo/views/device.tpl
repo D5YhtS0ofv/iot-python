@@ -11,7 +11,6 @@
 	</script>
 	
 	<div class="outer-main">
-		<img class="watermark" src="/static/images/bg.svg" />
 		<div class="trail left"></div>
 		<div class="trail right"></div>
 		<img class="plane left" src="/static/images/plane.svg" />
