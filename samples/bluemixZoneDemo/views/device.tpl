@@ -27,7 +27,7 @@
     			<span id="connection">Disconnected</span>
 			</p>​
 			<h3>So what exactly is happening here?</h3>
-			<p>Using MQTT messaging, the accelerometer data from your phone is being sent to the IoT Foundation.</p>
+			<p>Using MQTT messaging, the accelerometer data from your phone is being sent to the Internet of Things service.</p>
 			<p>A Bluemix app is using this data to mirror your movements &mdash; go on, try moving your phone.</p>
 			<h3>Still not convinced?</h3>
 			<p>Look at the web app and see what happens when you shake your phone harder!</p>
