@@ -1,0 +1,21 @@
+declared-services:
+  iot-python-cloudantNoSQLDB:
+    label: cloudantNoSQLDB
+    plan: Shared
+  iot-python-iotf-service:
+    label: iotf-service
+    plan: iotf-service-free
+
+applications:
+- services:
+  - iot-python-cloudantNoSQLDB
+  - iot-python-iotf-service
+  host: iot-python
+  name: iot-python
+  disk: 64M
+  command: setup.py
+  path: .
+  domain: mybluemix.net
+  memory: 64M 
+  instances: 1
+  
