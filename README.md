@@ -1,5 +1,5 @@
 ##Bluemix Deployment
-The sample is specifically designed to be deployed into Bluemix.  The application requires a binding to both an instance of the Internet of Things service & Cloudant services.
+Deploy the mobile phone demonstration into your own set of Bluemix services: a Python runtime, the Internet of Things service for devices, MQTT messaging and the Cloudant service for application data. 
 
 [![Deploy to Bluemix]
 (https://bluemix.net/deploy/button.png)]

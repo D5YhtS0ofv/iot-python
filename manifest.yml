@@ -8,11 +8,14 @@ declared-services:
   
 applications:
 - services:
-  - iot-python-cloudantNoSQLDB
-  - iot-python-iotf-service
-  host: iot-python
-  name: iot-python
+  - iot-python-phone-demo-cloudantNoSQLDB
+  - iot-python-phone-demo-iotf-service
+  host: iot-python-phone-demo
+  name: iot-python-phone-demo
+  memory: 64M
+  disk_quota: 256M
   command: python server.py
   domain: mybluemix.net
   path: samples/bluemixZoneDemo
   instances: 1
+  
