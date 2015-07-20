@@ -12,7 +12,7 @@ applications:
   - iot-python-iotf-service
   host: iot-python
   name: iot-python
-- command: python server.py
- domain: mybluemix.net
+  command: python server.py
+  domain: mybluemix.net
   path: samples/bluemixZoneDemo
   instances: 1
