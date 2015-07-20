@@ -5,17 +5,14 @@ declared-services:
   iot-python-iotf-service:
     label: iotf-service
     plan: iotf-service-free
-
+  
 applications:
 - services:
   - iot-python-cloudantNoSQLDB
   - iot-python-iotf-service
   host: iot-python
   name: iot-python
-  disk: 64M
-  command: setup.py
-  path: .
-  domain: mybluemix.net
-  memory: 64M 
+- command: python server.py
+ domain: mybluemix.net
+  path: samples/bluemixZoneDemo
   instances: 1
-  
